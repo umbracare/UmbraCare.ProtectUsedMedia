@@ -25,6 +25,7 @@
 	</info>
 	<files>
 		<file path="bin/Release/net472/UmbraCare.ProtectUsedMedia.dll" orgPath="bin/UmbraCare.ProtectUsedMedia.dll" />
+		<file path="bin/Release/net472/UmbraCare.Core.dll" orgPath="bin/UmbraCare.Core.dll" />
 		<folder path="App_Plugins/UmbraCare/" orgPath="App_Plugins/UmbraCare/" />
 	</files>
 	<Actions />
