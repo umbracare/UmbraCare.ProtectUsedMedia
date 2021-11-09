@@ -20,6 +20,7 @@
 		<dependencies>
 			<group targetFramework=".NETFramework4.7.2">
 				<dependency id="UmbracoCms" version="[8.6.0,9)" />
+				<dependency id="UmbraCare.Core" version="[8.2.1,9)" />
 				<dependency id="UmbraCare.DedicatedMediaFolder" version="[8,9)" />
 			</group>
 		</dependencies>
