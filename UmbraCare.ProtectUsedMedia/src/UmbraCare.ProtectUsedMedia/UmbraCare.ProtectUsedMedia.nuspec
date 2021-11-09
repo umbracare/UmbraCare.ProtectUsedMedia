@@ -16,7 +16,7 @@
 		<summary>The package protects against the unexpected removal of images and files - media used in documents.</summary>
 		<copyright>Copyright © GD Piotr Bach 2021</copyright>
 		<language>en-US</language>
-		<tags>Umbraco, UmbraCare, ProtectUsedMedia, Protect, Media, Remove, Delete, Secure, Package, Relation, References, Extension, Add-in, Backoffice</tags>
+		<tags>Umbraco, UmbraCare, ProtectUsedMedia, Protect, Used, Related, Media, Images, Files, Assets, Prevent, Remove, Delete, Trash, Secure, Package, Relation, References, Extension, Add-in, Backoffice</tags>
 		<dependencies>
 			<group targetFramework=".NETFramework4.7.2">
 				<dependency id="UmbracoCms" version="[8.6.0,9)" />
