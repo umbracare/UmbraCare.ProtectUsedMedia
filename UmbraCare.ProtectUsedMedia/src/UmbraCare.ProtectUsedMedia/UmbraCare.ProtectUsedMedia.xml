@@ -19,7 +19,7 @@
 		</author>
 		<readme>
 			<![CDATA[
-      <p>The package protects against the removal of media used in documents.</p>
+      <p>The package protects against the unexpected removal of images and files - media used in documents.</p>
       ]]>
 		</readme>
 	</info>

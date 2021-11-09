@@ -12,8 +12,8 @@
 		<iconUrl>https://umbracare.net/media/o50n5zga/nuget-umbracare-icon.png</iconUrl>
 		<icon>icon.png</icon>
 		<repository type="git" url="https://github.com/umbracare/UmbraCare.ProtectUsedMedia" />
-		<description>The package protects against the removal of media used in documents.</description>
-		<summary>The package protects against the removal of media used in documents.</summary>
+		<description>The package protects against the unexpected removal of images and files - media used in documents.</description>
+		<summary>The package protects against the unexpected removal of images and files - media used in documents.</summary>
 		<copyright>Copyright © GD Piotr Bach 2021</copyright>
 		<language>en-US</language>
 		<tags>Umbraco, UmbraCare, ProtectUsedMedia, Protect, Media, Remove, Delete, Secure, Package, Relation, References, Extension, Add-in, Backoffice</tags>
