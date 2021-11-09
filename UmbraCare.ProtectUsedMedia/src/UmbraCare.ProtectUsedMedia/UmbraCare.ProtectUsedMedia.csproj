@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net472</TargetFramework>
+		<RootNamespace>UmbraCare.ProtectUsedMedia</RootNamespace>
+
+		<IncludeContentInPack>true</IncludeContentInPack>
+		<ContentTargetFolders>content</ContentTargetFolders>
+	</PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="UmbraCare.Core" Version="8.2.1" />
+		<PackageReference Include="UmbracoCms.Web" Version="8.17.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Include="App_Plugins\**\*" />
+		<Compile Remove="**\*" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Include="Controllers\**\*" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Remove="App_Plugins\UmbraCare\ProtectUsedMedia\assets\images\icon.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Include="Components\ProtectUsedMediaComponent.cs" />
+	  <Compile Include="Composers\ProtectUsedMediaComponentComposer.cs" />
+	  <Compile Include="Helpers\ProtectUsedMediaHelper.cs" />
+	</ItemGroup>
+
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+	  <Exec Command="if $(ConfigurationName) == Release (&#xD;&#xA;    nuget pack &quot;$(ProjectDir)UmbraCare.ProtectUsedMedia.nuspec&quot; -OutputDirectory &quot;$(SolutionDir)output&quot;&#xD;&#xA;    UmbPack pack &quot;$(ProjectDir)UmbraCare.ProtectUsedMedia.xml&quot; -o &quot;$(SolutionDir)output&quot;&#xD;&#xA;)" />
+	</Target>
+</Project>

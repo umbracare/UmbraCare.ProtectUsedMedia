@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<umbPackage>
+	<info>
+		<package>
+			<name>UmbraCare.ProtectUsedMedia</name>
+			<version>8.0.0</version>
+			<iconUrl>https://umbracare.net/media/o50n5zga/nuget-umbracare-icon.png</iconUrl>
+			<licence url="http://www.opensource.org/licenses/MIT">MIT License</licence>
+			<url>https://umbracare.net/products/protect-used-media</url>
+			<requirements type="Strict">
+				<major>8</major>
+				<minor>6</minor>
+				<patch>0</patch>
+			</requirements>
+		</package>
+		<author>
+			<name>Wojciech Tengler, Piotr Bach</name>
+			<website>https://umbracare.net/</website>
+		</author>
+		<readme>
+			<![CDATA[
+      <p>The package protects against the removal of media used in documents.</p>
+      ]]>
+		</readme>
+	</info>
+	<files>
+		<file path="bin/Release/net472/UmbraCare.ProtectUsedMedia.dll" orgPath="bin/UmbraCare.ProtectUsedMedia.dll" />
+		<folder path="App_Plugins/UmbraCare/" orgPath="App_Plugins/UmbraCare/" />
+	</files>
+	<Actions />
+	<control />
+	<DocumentTypes />
+	<Templates />
+	<Stylesheets />
+	<Macros />
+	<DictionaryItems />
+	<Languages />
+	<DataTypes />
+</umbPackage>
