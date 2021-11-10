@@ -9,7 +9,7 @@
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<licenseUrl>https://opensource.org/licenses/mit-license.php</licenseUrl>
 		<projectUrl>https://umbracare.net/products/protect-used-media</projectUrl>
-		<iconUrl>https://umbracare.net/media/o50n5zga/nuget-umbracare-icon.png</iconUrl>
+		<iconUrl>https://umbracare.net/media/u1hpra20/umbracare-protect-used-media-icon-128x128.png</iconUrl>
 		<icon>icon.png</icon>
 		<repository type="git" url="https://github.com/umbracare/UmbraCare.ProtectUsedMedia" />
 		<description>The package protects against the unexpected removal of images and files - media used in documents.</description>

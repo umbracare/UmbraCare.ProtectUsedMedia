@@ -4,7 +4,7 @@
 		<package>
 			<name>UmbraCare.ProtectUsedMedia</name>
 			<version>8.0.1</version>
-			<iconUrl>https://umbracare.net/media/o50n5zga/nuget-umbracare-icon.png</iconUrl>
+			<iconUrl>https://umbracare.net/media/u1hpra20/umbracare-protect-used-media-icon-128x128.png</iconUrl>
 			<licence url="http://www.opensource.org/licenses/MIT">MIT License</licence>
 			<url>https://umbracare.net/products/protect-used-media</url>
 			<requirements type="Strict">
